@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3374a590-b86c-4caa-9c52-394e42d6f2ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminAccountController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminArticlesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/AccountType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/InscriptionType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/PassRecupType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/PasswordUpdateType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/account/adminLogin.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/account/adminPass.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/account/adminProfil.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/account/inscription.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/articles/dashboard.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/partials/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/partials/footer.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/partials/header.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +152,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Entity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Form" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aines\Symfony-4-Projects\sf4-backoffice-admin\public\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aines\Symfony-4-Projects\sf4-backoffice-admin\src\Form" />
+      <recent name="C:\Users\aines\Symfony-4-Projects\sf4-backoffice-admin\src\Controller" />
+      <recent name="C:\Users\aines\Symfony-4-Projects\sf4-backoffice-admin\templates" />
+      <recent name="C:\Users\aines\Symfony-4-Projects\sf4-backoffice-admin\src\Entity" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -162,7 +189,8 @@
       <updated>1578602455667</updated>
       <workItem from="1578602457198" duration="692000" />
       <workItem from="1578641019805" duration="45000" />
-      <workItem from="1578760422203" duration="575000" />
+      <workItem from="1578760422203" duration="932000" />
+      <workItem from="1578840394436" duration="2668000" />
     </task>
     <servers />
   </component>
@@ -170,10 +198,11 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="540" y="256" key="IDE.errors.dialog" timestamp="1578602546486">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2460" y="256" key="IDE.errors.dialog" timestamp="1578851115833">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="256" key="IDE.errors.dialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578602546486" />
+    <state x="2460" y="256" key="IDE.errors.dialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578851115833" />
     <state x="636" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1578641037016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

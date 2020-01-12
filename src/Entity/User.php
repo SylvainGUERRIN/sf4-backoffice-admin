@@ -3,11 +3,12 @@
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Security\Core\User\UserInterface;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\UserRepository")
  */
-class User
+class User implements UserInterface, \Serializable
 {
     /**
      * @ORM\Id()
@@ -121,5 +122,61 @@ class User
         $this->role = $role;
 
         return $this;
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function serialize(): string
+    {
+        // add $this->salt too if you don't use Bcrypt or Argon2i
+        return serialize([$this->id, $this->username, $this->mail, $this->pass]);
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function unserialize($serialized): void
+    {
+        // add $this->salt too if you don't use Bcrypt or Argon2i
+        [$this->id, $this->username, $this->mail, $this->pass] = unserialize($serialized, ['allowed_classes' => false]);
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function getRoles()
+    {
+        if($this->getRole() === 'admin'){
+            return ['ROLE_ADMIN'];
+        }else {
+            return ['ROLE_USER'];
+        }
+    }
+
+    /**
+     * @inheritDoc
+     * si sur l'entité pas de getter Password
+     * le spécifié ici et retourner le mot de passe de l'entité
+     */
+    public function getPassword(): ?string
+    {
+        return $this->pass;
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function getSalt()
+    {
+        return null;
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function eraseCredentials()
+    {
+        // TODO: Implement eraseCredentials() method.
     }
 }
