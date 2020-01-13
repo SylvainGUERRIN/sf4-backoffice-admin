@@ -50,11 +50,11 @@ class AccountType extends AbstractType
 //                'required' => false,
 //                'mapped' => true
 //            ])
-            ->add('avatar', AvatarType::class, [
-                'label' => ' ',
-                'required' => false,
-                'mapped' => true
-            ])
+//            ->add('avatar', AvatarType::class, [
+//                'label' => ' ',
+//                'required' => false,
+//                'mapped' => true
+//            ])
 //            ->add('avatarFiles', FileType::class, [
 //                'label' => 'Téléchargez une image pour mettre dans votre profil',
 //                'required' => false,

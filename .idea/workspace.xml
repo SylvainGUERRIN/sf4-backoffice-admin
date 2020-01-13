@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3374a590-b86c-4caa-9c52-394e42d6f2ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/articles/dashboard.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/articles/dashboard.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminAccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminAccountController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/AccountType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/AccountType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/account/adminPass.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/account/adminPass.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/account/adminProfil.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/account/adminProfil.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/partials/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/partials/header.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +178,8 @@
       <workItem from="1578602457198" duration="692000" />
       <workItem from="1578641019805" duration="45000" />
       <workItem from="1578760422203" duration="932000" />
-      <workItem from="1578840394436" duration="3301000" />
+      <workItem from="1578840394436" duration="3486000" />
+      <workItem from="1578928567381" duration="1641000" />
     </task>
     <servers />
   </component>
