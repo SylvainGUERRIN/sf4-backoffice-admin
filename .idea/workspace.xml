@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3374a590-b86c-4caa-9c52-394e42d6f2ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminAccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminAccountController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,9 +12,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -129,13 +128,12 @@
   <component name="ProjectId" id="1WApryY9Yd4vExFz2W40bgTLFxN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sf4-backoffice-composant" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -147,18 +145,6 @@
       <recent name="C:\Users\aines\Symfony-4-Projects\sf4-backoffice-admin\templates" />
       <recent name="C:\Users\aines\Symfony-4-Projects\sf4-backoffice-admin\src\Entity" />
     </key>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -175,14 +161,19 @@
       <workItem from="1578760422203" duration="932000" />
       <workItem from="1578840394436" duration="3486000" />
       <workItem from="1578928567381" duration="1751000" />
-      <workItem from="1585671432505" duration="263000" />
+      <workItem from="1585671432505" duration="385000" />
+      <workItem from="1589714231557" duration="795000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585671820829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585671820829" />
     <state x="2460" y="256" key="IDE.errors.dialog" timestamp="1578851115833">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
