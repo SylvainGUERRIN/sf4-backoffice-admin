@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3374a590-b86c-4caa-9c52-394e42d6f2ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AdminAccountControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/SimpleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/UserRepositoryTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminAccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminAccountController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
@@ -132,8 +139,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sf4-backoffice-composant" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sf4-backoffice-composant/vendor/bin/simple-phpunit" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -145,6 +154,22 @@
       <recent name="C:\Users\aines\Symfony-4-Projects\sf4-backoffice-admin\templates" />
       <recent name="C:\Users\aines\Symfony-4-Projects\sf4-backoffice-admin\src\Entity" />
     </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.AdminAccountTest">
+    <configuration name="AdminAccountTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\AdminAccountTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/tests/AdminAccountControllerTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AdminAccountTest.testAreWorking" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\AdminAccountTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/tests/AdminAccountControllerTest.php" method="testAreWorking" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.AdminAccountTest" />
+        <item itemvalue="PHPUnit.AdminAccountTest.testAreWorking" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -162,26 +187,67 @@
       <workItem from="1578840394436" duration="3486000" />
       <workItem from="1578928567381" duration="1751000" />
       <workItem from="1585671432505" duration="385000" />
-      <workItem from="1589714231557" duration="795000" />
+      <workItem from="1589714231557" duration="863000" />
+      <workItem from="1594554204572" duration="1082000" />
+      <workItem from="1594555451768" duration="4973000" />
     </task>
+    <task id="LOCAL-00001" summary="add security when admin connect">
+      <created>1589718062172</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589718062172</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add security when admin connect" />
+    <option name="LAST_COMMIT_MESSAGE" value="add security when admin connect" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585671820829">
+    <state x="642" y="114" width="650" height="811" key="#AdminAccountTest" timestamp="1594555198241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585671820829" />
-    <state x="2460" y="256" key="IDE.errors.dialog" timestamp="1578851115833">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="540" y="256" key="IDE.errors.dialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578602546486" />
-    <state x="2460" y="256" key="IDE.errors.dialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578851115833" />
-    <state x="636" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1578641037016">
+    <state x="642" y="114" width="650" height="811" key="#AdminAccountTest/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594555198241" />
+    <state x="679" y="71" width="588" height="897" key="#PHP" timestamp="1594555002507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="636" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1578641037016" />
+    <state x="679" y="71" width="588" height="897" key="#PHP/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594555002507" />
+    <state x="540" y="175" key="#Test_Frameworks" timestamp="1594555105251">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="175" key="#Test_Frameworks/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594555105251" />
+    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1589718060878">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589718060878" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1594555102180">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594555102180" />
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom" timestamp="1594555291342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594555291342" />
+    <state width="1877" height="275" key="GridCell.Tab.0.center" timestamp="1594555291342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594555291342" />
+    <state width="1877" height="275" key="GridCell.Tab.0.left" timestamp="1594555291342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594555291342" />
+    <state width="1877" height="275" key="GridCell.Tab.0.right" timestamp="1594555291342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594555291342" />
+    <state x="740" y="227" key="NewPhpClassDialog" timestamp="1594555926655">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="227" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594555926655" />
   </component>
 </project>
