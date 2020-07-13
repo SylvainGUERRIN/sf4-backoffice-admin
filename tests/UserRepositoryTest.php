@@ -34,6 +34,6 @@ class UserRepositoryTest extends KernelTestCase
         //$nbUsers = $kernel->getContainer()->get(UserRepository::class)->count([]);
         $nbUsers = $this->entityManager->getRepository(User::class)->findAll();
         //self::assertEquals(0, $nbUsers);
-        self::assertCount(0, $nbUsers);
+        self::assertCount(10, $nbUsers);
     }
 }
