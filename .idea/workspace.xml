@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3374a590-b86c-4caa-9c52-394e42d6f2ab" name="Default Changelist" comment="add tests on AdminCount and UserRepository">
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sf4-backoffice-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sf4-backoffice-admin.iml" afterDir="false" />
+    <list default="true" id="3374a590-b86c-4caa-9c52-394e42d6f2ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/MailTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/account/inscription.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/account/inscription.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/articles/dashboard.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/articles/dashboard.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/AdminAccountControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/AdminAccountControllerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/UserRepositoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/UserRepositoryTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +191,8 @@
       <workItem from="1594554204572" duration="1082000" />
       <workItem from="1594555451768" duration="5224000" />
       <workItem from="1594624897994" duration="611000" />
-      <workItem from="1594654778688" duration="4277000" />
+      <workItem from="1594654778688" duration="4645000" />
+      <workItem from="1594715728379" duration="8483000" />
     </task>
     <task id="LOCAL-00001" summary="add security when admin connect">
       <created>1589718062172</created>
@@ -212,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594585127127</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add tests on profil page and password update page">
+      <created>1594668053673</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594668053673</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +224,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add security when admin connect" />
     <MESSAGE value="add tests on AdminCount and UserRepository" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tests on AdminCount and UserRepository" />
+    <MESSAGE value="add tests on profil page and password update page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tests on profil page and password update page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="642" y="114" width="650" height="811" key="#AdminAccountTest" timestamp="1594555198241">
@@ -240,10 +244,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="200" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594664693919" />
-    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1594664669085">
+    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1594668052288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594664669085" />
+    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594668052288" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1594555102180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -264,9 +268,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="275" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594555291342" />
-    <state x="740" y="227" key="NewPhpClassDialog" timestamp="1594664505911">
+    <state x="740" y="227" key="NewPhpClassDialog" timestamp="1594725649035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="227" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594664505911" />
+    <state x="740" y="227" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594725649035" />
   </component>
 </project>

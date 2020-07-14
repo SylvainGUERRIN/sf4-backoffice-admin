@@ -112,7 +112,7 @@ class User implements UserInterface, \Serializable
         return $this;
     }
 
-    public function getRole(): ?string
+    public function getRole()
     {
         return $this->role;
     }
@@ -149,9 +149,9 @@ class User implements UserInterface, \Serializable
     {
         if($this->getRole() === 'admin'){
             return ['ROLE_ADMIN'];
-        }else {
-            return ['ROLE_USER'];
         }
+
+        return ['ROLE_USER'];
     }
 
     /**
@@ -178,5 +178,10 @@ class User implements UserInterface, \Serializable
     public function eraseCredentials()
     {
         // TODO: Implement eraseCredentials() method.
+    }
+
+    public function __toString()
+    {
+        return (string) $this->username;
     }
 }
