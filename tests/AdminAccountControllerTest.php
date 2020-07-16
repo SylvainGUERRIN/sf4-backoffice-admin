@@ -85,6 +85,16 @@ class AdminAccountControllerTest extends WebTestCase
         self::assertResponseRedirects('http://localhost/compo-admin/administration/');
     }
 
+    //tests on array user
+    public function testUserAdmin0(): void
+    {
+        $client = static::createClient();
+        $user = $client->getContainer()->get('doctrine')->getRepository('App:User')->findOneByUsername('admin0');
+
+        self::assertArrayHasKey('0', $user);
+        //self::assertClassNotHasAttribute($user, User::class);
+    }
+
     /*public function testLetAuthenticatedUserAccessAuth(): void
     {
         $client = static::createClient();
