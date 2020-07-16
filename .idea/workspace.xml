@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3374a590-b86c-4caa-9c52-394e42d6f2ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/MailTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/articles/dashboard.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/articles/dashboard.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminAccountControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/AdminAccountControllerTest.php" afterDir="false" />
-    </list>
+    <list default="true" id="3374a590-b86c-4caa-9c52-394e42d6f2ab" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,7 +185,7 @@
       <workItem from="1594555451768" duration="5224000" />
       <workItem from="1594624897994" duration="611000" />
       <workItem from="1594654778688" duration="4645000" />
-      <workItem from="1594715728379" duration="8483000" />
+      <workItem from="1594715728379" duration="8650000" />
     </task>
     <task id="LOCAL-00001" summary="add security when admin connect">
       <created>1589718062172</created>
@@ -215,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594668053673</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add tests authenticated">
+      <created>1594726532753</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594726532753</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +225,8 @@
     <MESSAGE value="add security when admin connect" />
     <MESSAGE value="add tests on AdminCount and UserRepository" />
     <MESSAGE value="add tests on profil page and password update page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tests on profil page and password update page" />
+    <MESSAGE value="add tests authenticated" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tests authenticated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="642" y="114" width="650" height="811" key="#AdminAccountTest" timestamp="1594555198241">
@@ -244,10 +245,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="200" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594664693919" />
-    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1594668052288">
+    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1594726531666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594668052288" />
+    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594726531666" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1594555102180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
