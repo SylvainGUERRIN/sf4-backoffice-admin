@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3374a590-b86c-4caa-9c52-394e42d6f2ab" name="Default Changelist" comment="">
+    <list default="true" id="3374a590-b86c-4caa-9c52-394e42d6f2ab" name="Default Changelist" comment="add tests on array user">
+      <change afterPath="$PROJECT_DIR$/tests/NeedLogin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/AdminAccountControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/AdminAccountControllerTest.php" afterDir="false" />
     </list>
@@ -189,7 +190,8 @@
       <workItem from="1594624897994" duration="611000" />
       <workItem from="1594654778688" duration="4645000" />
       <workItem from="1594715728379" duration="8650000" />
-      <workItem from="1594896200876" duration="742000" />
+      <workItem from="1594896200876" duration="949000" />
+      <workItem from="1595231279995" duration="5442000" />
     </task>
     <task id="LOCAL-00001" summary="add security when admin connect">
       <created>1589718062172</created>
@@ -226,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594896300570</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add tests on array user">
+      <created>1594897115202</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594897115202</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +247,8 @@
     <MESSAGE value="add tests on profil page and password update page" />
     <MESSAGE value="add tests authenticated" />
     <MESSAGE value="add workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="add workspace" />
+    <MESSAGE value="add tests on array user" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tests on array user" />
   </component>
   <component name="WindowStateProjectService">
     <state x="642" y="114" width="650" height="811" key="#AdminAccountTest" timestamp="1594555198241">
@@ -257,10 +267,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="200" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594664693919" />
-    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1594896299748">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1595235903114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594896299748" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595235903114" />
+    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1595231333620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595231333620" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1594555102180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -285,5 +299,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="227" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594725649035" />
+    <state x="794" y="439" key="NewPhpFileDialog" timestamp="1595235774867">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="439" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595235774867" />
   </component>
 </project>

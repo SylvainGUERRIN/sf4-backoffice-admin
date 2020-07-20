@@ -5,6 +5,7 @@ namespace App\Tests;
 
 
 use App\Entity\User;
+use App\Repository\UserRepository;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Symfony\Component\BrowserKit\Cookie;
@@ -13,6 +14,8 @@ use Symfony\Component\Security\Core\Authentication\Token\UsernamePasswordToken;
 
 class AdminAccountControllerTest extends WebTestCase
 {
+    use NeedLogin;
+
     //tests page inscription
     public function testGoOnAdminInscriptionPageWith200Return(): void
     {
@@ -89,29 +92,54 @@ class AdminAccountControllerTest extends WebTestCase
     public function testUserAdmin0(): void
     {
         $client = static::createClient();
-        $user = $client->getContainer()->get('doctrine')->getRepository('App:User')->findOneByUsername('admin0');
+        $container = self::$container;
 
-        self::assertArrayHasKey('0', $user);
+        $userRepository = static::$container->get(UserRepository::class);
+
+        $admin0 = $userRepository->findOneByMail('admin0@orange.fr');
+
+        self::assertIsObject($admin0);
+        //self::assertContainsOnlyInstancesOf(UserRepository::class, $admin0);
+        //$user = $client->getContainer()->get('doctrine')->getRepository('App:User')->findOneByUsername('admin0');
+        //self::assertArrayHasKey('0', $admin0);
         //self::assertClassNotHasAttribute($user, User::class);
     }
 
-    /*public function testLetAuthenticatedUserAccessAuth(): void
+    public function testLetAuthenticatedUserAccessAuth(): void
     {
         $client = static::createClient();
-        $user = $client->getContainer()->get('doctrine')->getRepository('App:User')->findOneByUsername('admin0');
+        $container = self::$container;
 
-        $session = $client->getContainer()->get('session');
+        $userRepository = static::$container->get(UserRepository::class);
+        $admin0 = $userRepository->findOneByMail('admin0@orange.fr');
+
+        self::assertIsObject($admin0);
+        self::assertObjectHasAttribute('username', $admin0);
+        self::assertObjectHasAttribute('mail', $admin0);
+        self::assertObjectHasAttribute('pass', $admin0);
+        self::assertObjectHasAttribute('role', $admin0);
+        self::assertSame('ROLE_ADMIN', $admin0->getRole());
+
+
+        //$user = $client->getContainer()->get('doctrine')->getRepository('App:User')->findOneByUsername('admin0');
+
+        $this->login($client, $admin0);
+        /*$session = $client->getContainer()->get('session');
         //problem with $user->getRoles()
-        $token = new UsernamePasswordToken($user, null, 'admin', $user->getRoles());
+        $token = new UsernamePasswordToken($admin0, null, 'admin', $admin0->getRoles());
 
         $session->set('security_admin', serialize($token));
         $session->save();
         $cookie = new Cookie($session->getName(), $session->getId());
 
-        $client->getCookieJar()->set($cookie);
-        $client->request('GET', '/compo-admin/account/admin-connexion');
-        self::assertResponseStatusCodeSame(Response::HTTP_OK);
-    }*/
+        $client->getCookieJar()->set($cookie);*/
+        //$client->request('GET', '/compo-admin/account/admin-connexion');
+        //self::assertResponseStatusCodeSame(Response::HTTP_OK);
+
+        //ne se connecte pas malgré le trait
+        $client->request('GET', '/compo-admin/administration');
+        //self::assertResponseStatusCodeSame(Response::HTTP_OK);
+    }
 
     //tests page profil
     public function testGoAdminProfilWithoutCredentialsRedirectWith302(): void
