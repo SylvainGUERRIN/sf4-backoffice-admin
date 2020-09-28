@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3374a590-b86c-4caa-9c52-394e42d6f2ab" name="Default Changelist" comment="add tests on array user">
-      <change afterPath="$PROJECT_DIR$/tests/NeedLogin.php" afterDir="false" />
+    <list default="true" id="3374a590-b86c-4caa-9c52-394e42d6f2ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AdminAccountControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/AdminAccountControllerTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +189,10 @@
       <workItem from="1594654778688" duration="4645000" />
       <workItem from="1594715728379" duration="8650000" />
       <workItem from="1594896200876" duration="949000" />
-      <workItem from="1595231279995" duration="5442000" />
+      <workItem from="1595231279995" duration="5571000" />
+      <workItem from="1595516532978" duration="1737000" />
+      <workItem from="1595599651419" duration="832000" />
+      <workItem from="1595600672079" duration="1277000" />
     </task>
     <task id="LOCAL-00001" summary="add security when admin connect">
       <created>1589718062172</created>
@@ -235,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594897115202</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add trait for login">
+      <created>1595238263761</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595238263761</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +256,8 @@
     <MESSAGE value="add tests authenticated" />
     <MESSAGE value="add workspace" />
     <MESSAGE value="add tests on array user" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tests on array user" />
+    <MESSAGE value="add trait for login" />
+    <option name="LAST_COMMIT_MESSAGE" value="add trait for login" />
   </component>
   <component name="WindowStateProjectService">
     <state x="642" y="114" width="650" height="811" key="#AdminAccountTest" timestamp="1594555198241">
@@ -263,6 +272,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="175" key="#Test_Frameworks/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594555105251" />
+    <state x="2630" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595517627672">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2630" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595517627672" />
     <state x="765" y="200" key="#com.intellij.ide.util.MemberChooser" timestamp="1594664693919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -271,14 +284,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595235903114" />
-    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1595231333620">
+    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1595238262843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595231333620" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1594555102180">
+    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595238262843" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1595600459428">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594555102180" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595600459428" />
     <state width="1877" height="275" key="GridCell.Tab.0.bottom" timestamp="1594555291342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
